@@ -1,0 +1,82 @@
+{
+    "505000":{
+        "question": "Question 1",
+        "reponse": [
+            {
+                "button1": "Réponse A",
+                "socialDamage": 20,
+                "ecologyDamage": 20 
+            },
+            {
+                "button2": "Réponse B",
+                "socialDamage": 20,
+                "ecologyDamage": -20
+            },
+            {
+                "button3": "Réponse C",
+                "socialDamage": -20,
+                "ecologyDamage": 20
+            }
+        ]
+    },
+    "707040":{
+        "question": "Question 2",
+        "reponse": [
+            {
+                "button1": "Réponse D",
+                "socialDamage": 10,
+                "ecologyDamage": 10
+            },
+            {
+                "button2": "Réponse E",
+                "socialDamage": -10,
+                "ecologyDamage": 10
+            },
+            {
+                "button3": "Réponse F",
+                "socialDamage": 10,
+                "ecologyDamage": -10
+            }
+        ]
+    },
+    "703000":{
+        "question": "Question 3",
+        "reponse": [
+            {
+                "button1": "Réponse G",
+                "socialDamage": 10,
+                "ecologyDamage": 10
+            },
+            {
+                "button2": "Réponse H",
+                "socialDamage": -10,
+                "ecologyDamage": 10
+            },
+            {
+                "button3": "Réponse I",
+                "socialDamage": 10,
+                "ecologyDamage": -10
+            }
+        ]
+    },
+    "307000":{
+        "question": "Question 4",
+        "reponse": [
+            {
+                "button1": "Réponse J",
+                "socialDamage": 10,
+                "ecologyDamage": 10
+            },
+            {
+                "button2": "Réponse K",
+                "socialDamage": -10,
+                "ecologyDamage": 10
+            },
+            {
+                "button3": "Réponse L",
+                "socialDamage": 10,
+                "ecologyDamage": -10
+            }
+        ]
+    }
+}
