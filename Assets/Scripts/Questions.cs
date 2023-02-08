@@ -9,12 +9,16 @@ public class Questions : MonoBehaviour
     public TextAsset jsonAsset;
     public string jsonString;
 
-    public void callJson () 
+    //public Question question1;
+
+    public void callJson() 
     {
         jsonAsset = Resources.Load<TextAsset>("Data");
         jsonString = jsonAsset.text;
-        Data questionsDictionary = JsonUtility.FromJson<Data>(jsonString);
+        Data data = JsonUtility.FromJson<Data>(jsonString);
         Debug.Log(jsonString);
+        Debug.Log(data.questionDictionary["505000"]);
+
     }
 
     // Start is called before the first frame update
