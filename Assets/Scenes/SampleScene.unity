@@ -676,7 +676,6 @@ GameObject:
   - component: {fileID: 941978895}
   - component: {fileID: 941978898}
   - component: {fileID: 941978897}
-  - component: {fileID: 941978896}
   m_Layer: 5
   m_Name: questionText
   m_TagString: Untagged
@@ -704,20 +703,6 @@ RectTransform:
   m_AnchoredPosition: {x: -2.3577, y: 137}
   m_SizeDelta: {x: 336.291, y: 161.0112}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &941978896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 941978894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 822827955da0acd2590dd85a35eba4b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  questionText: 
 --- !u!114 &941978897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -813,9 +798,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc8a3b7ac596adc4a85450f2c378501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answerText: 
-  socialDamage: 0
-  ecologyDamage: 0
 --- !u!114 &999678473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1010,7 +992,7 @@ GameObject:
   - component: {fileID: 1307590626}
   - component: {fileID: 1307590629}
   - component: {fileID: 1307590628}
-  - component: {fileID: 1307590627}
+  - component: {fileID: 1307590630}
   m_Layer: 5
   m_Name: Questions
   m_TagString: Untagged
@@ -1040,20 +1022,6 @@ RectTransform:
   m_AnchoredPosition: {x: -279.8797, y: -1.4453}
   m_SizeDelta: {x: 424.2406, y: 486.8905}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1307590627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307590625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5951dd6135740d588851655cf46e9b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jsonAsset: {fileID: 4900000, guid: 2edadf0c50493d18ab2e5d7202d4a4b8, type: 3}
-  jsonString: 
 --- !u!114 &1307590628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1092,6 +1060,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1307590625}
   m_CullTransparentMesh: 1
+--- !u!114 &1307590630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307590625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5951dd6135740d588851655cf46e9b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jsonAsset: {fileID: 4900000, guid: c9160e5a76ac088869d902c2c4538d4e, type: 3}
+  jsonString: 
 --- !u!1 &1432510853
 GameObject:
   m_ObjectHideFlags: 0
