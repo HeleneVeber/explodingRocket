@@ -4,11 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [System.Serializable]
+
 public class Questions : MonoBehaviour
 {
+    public Question questionToPlay;
     public TextAsset jsonAsset;
     public string jsonString;
-  
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,12 +18,13 @@ public class Questions : MonoBehaviour
         jsonString = jsonAsset.text;
         Data data = JsonUtility.FromJson<Data>(jsonString);
         Debug.Log(jsonString);
-        Debug.Log(data.questionsList[0].responses[0].answerText);
+        Debug.Log(data.questionsList[0].questionText);
+        questionToPlay.questionText.text = data.questionsList[0].questionText;
     }
-
+    
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 }
