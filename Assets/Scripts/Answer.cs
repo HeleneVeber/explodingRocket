@@ -7,5 +7,9 @@ using UnityEngine.UI;
 public class Answer : MonoBehaviour
 {
    public Text answerText;
+   public int socialDamage;
+   public int ecologyDamage;
+
+   public int rocketPoint;
 }
 

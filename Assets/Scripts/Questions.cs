@@ -33,7 +33,10 @@ public class Questions : MonoBehaviour
     public Button buttonA;
     public Button buttonB;
     public Button buttonC;
-    
+
+    public Answer answerA;
+    public Answer answerB;
+    public Answer answerC;
     // variables permettant l'affichage des textes
     public TextQuestion questionToPlay;
 
@@ -53,19 +56,25 @@ public class Questions : MonoBehaviour
         ecologyhealthbar.SetInitialEcologyHealth(ecologyInitialHealth);
         rocketCurrentHealth = rocketInitialHealth; // On devrait l'attribuer à maxHealth
         rockethealthbar.SetInitialRocketHealth(rocketInitialHealth);
-        buttonA.onClick.AddListener(()=>TakeDamage(-5, -5, 5));
-        buttonB.onClick.AddListener(()=>TakeDamage(-5, -5, 0));
-        buttonC.onClick.AddListener(()=>TakeDamage(-5, -5, 5));
-        
-        // affichage de la question
-        questionToPlay.questionText.text = data.questionsList[0].questionText;
-
+        callJson(data);
     }
 
     void Update()
     {
-       
+
     }
+
+    void callJson(Data datargument) {
+        buttonA.onClick.AddListener(()=>TakeDamage(datargument.questionsList[0].responses[0].socialDamage, datargument.questionsList[0].responses[0].ecologyDamage, datargument.questionsList[0].responses[0].rocketPoint));
+        buttonB.onClick.AddListener(()=>TakeDamage(datargument.questionsList[0].responses[0].socialDamage, datargument.questionsList[0].responses[0].ecologyDamage, datargument.questionsList[0].responses[1].rocketPoint));
+        buttonC.onClick.AddListener(()=>TakeDamage(datargument.questionsList[0].responses[0].socialDamage, datargument.questionsList[0].responses[0].ecologyDamage, datargument.questionsList[0].responses[2].rocketPoint));
+        
+        //affichage de la question et des réponses
+        questionToPlay.questionText.text = datargument.questionsList[0].questionText;
+        answerA.answerText.text = datargument.questionsList[0].responses[0].answerText;
+        answerB.answerText.text = datargument.questionsList[0].responses[1].answerText;
+        answerC.answerText.text = datargument.questionsList[0].responses[2].answerText;
+}
 
      void TakeDamage(int socialDamage, int ecologyDamage, int rocketDamage)
     {

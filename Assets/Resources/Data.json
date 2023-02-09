@@ -2,22 +2,25 @@
     "questionsList":
     [
         {
-            "questionText": "Question 1 : ?",
+            "questionText": "Question 1 : \n\n GREVE GENERALE !! \n\nDes augmentations de salaire sont demandées, quelle est ta réaction ?",
             "responses": [
                 {
-                    "answerText": "Réponse A",
+                    "answerText": "Tu vires tout le monde, ça dégage !",
                     "socialDamage": 20,
-                    "ecologyDamage": 20 
+                    "ecologyDamage": 20,
+                    "rocketPoint": 20
                 },
                 {
-                    "answerText": "Réponse B",
+                    "answerText": "Tu accèdes aux demandes et augmentes les salaire",
                     "socialDamage": 20,
-                    "ecologyDamage": -20
+                    "ecologyDamage": -20,
+                    "rocketPoint": 20
                 },
                 {
-                    "answerText": "Réponse C",
+                    "answerText": "Tu refuses de négocier et envoies les keufs.",
                     "socialDamage": -20,
-                    "ecologyDamage": 20
+                    "ecologyDamage": 20,
+                    "rocketPoint": -20
                 }
             ]
         },

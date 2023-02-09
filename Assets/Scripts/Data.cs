@@ -16,4 +16,6 @@ public class AnswerData {
     public string answerText;
     public int socialDamage;
     public int ecologyDamage;
+
+    public int rocketPoint;
 }
