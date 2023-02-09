@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Question : MonoBehaviour
+public class TextQuestion : MonoBehaviour
 {
     public Text questionText;
     // Start is called before the first frame update
-    void Start()
-    {
+    // void Start()
+    // {
 
-    }
+    // }
 
 //     Update is called once per frame
 //     void Update()

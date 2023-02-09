@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class Answer : MonoBehaviour
 {
-   public Button answerA;
-   public Text answerTextA;
+   public Text answerText;
 }
 

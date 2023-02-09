@@ -5,13 +5,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.explodingRocket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.explodingRocket/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Answer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Answer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Question.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Question.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Question.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Question.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Questions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Questions.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RocketHealthBar.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -23,10 +27,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.maddyhome.idea.vim.ui.VimEmulationConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.environmentSetup&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -86,7 +91,13 @@
       <workItem from="1675854194826" duration="1819000" />
       <workItem from="1675872883778" duration="1887000" />
       <workItem from="1675878441663" duration="374000" />
-      <workItem from="1675933026951" duration="665000" />
+      <workItem from="1675933026951" duration="1062000" />
+      <workItem from="1675946135998" duration="311000" />
+      <workItem from="1675946474756" duration="1104000" />
+      <workItem from="1675947608392" duration="1998000" />
+      <workItem from="1675951202251" duration="8000" />
+      <workItem from="1675951247577" duration="50000" />
+      <workItem from="1675953241819" duration="39000" />
     </task>
     <servers />
   </component>
@@ -94,8 +105,12 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
