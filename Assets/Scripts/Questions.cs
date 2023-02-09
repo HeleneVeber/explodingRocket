@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class Questions : MonoBehaviour
 {
     public Question questionToPlay;
+    public Answer answer;
     public TextAsset jsonAsset;
     public string jsonString;
 
@@ -20,8 +21,9 @@ public class Questions : MonoBehaviour
         Debug.Log(jsonString);
         Debug.Log(data.questionsList[0].questionText);
         questionToPlay.questionText.text = data.questionsList[0].questionText;
+       // answer.answerA.answerTextA = "test,test,test";
     }
-    
+   
     // Update is called once per frame
     void Update()
     {
